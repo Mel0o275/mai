@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>simple</title>
+</head>
+<body> 
+    <header class="header-mai">
+        <a class="logo-mai" href="index.html">
+            <h2>
+                Nagwa
+            </h2>
+        </a>
+        </div>
+        <nav class="nav-mai">
+            <a href="index.html#course">Courses</a>
+            <a href="mainquiz.html">Quizes</a>
+            <a href="regestration.html">Sign Up</a>
+            <a href="login.html">login</a>
+            <i class="fa-regular fa-user" style="padding-right: 10px;" id="user-mai"></i>
+            <i class="fa-solid fa-moon" id="nightModeToggle"></i>
+        </nav>      
+</header>
+<section>
+    <input type="checkbox" id="check-mai">
+    <label for="check-mai">
+        <i class="fas fa-bars" id="bar-mai"></i>
+    </label>
+        <div class="slide-mai">
+            <ul style="padding-top: 100px;">
+                <input type="search" id="search-mai" placeholder="Search">
+                <li><a href="index.html#course"><i class="fas faqrcode"></i>Courses</a></li>
+                <li><a href="mainquiz.html"><i class="fas faqrcode"></i>Quizes</a></li>
+                <li><a href="about.html"><i class="fas faqrcode"></i>About Us</a></li>
+                <li><a href="contact.html"><i class="fas faqrcode"></i>Contact Us</a></li>
+            </ul>
+        </div>
+</section>
+<section>
+    <input type="checkbox" id="check-mai">
+    <label for="check-mai">
+        <i class="fas fa-bars" id="bar-mai"></i>
+    </label>
+        <div class="slide-mai">
+            <ul style="padding-top: 100px;">
+                <input type="search" id="search-mai" placeholder="Search">
+                <li><a href="#course"><i class="fas faqrcode"></i>Courses</a></li>
+                <li><a href="mainquiz.html"><i class="fas faqrcode"></i>Quizes</a></li>
+                <li><a href="about.html"><i class="fas faqrcode"></i>About Us</a></li>
+                <li><a href="contact.html"><i class="fas faqrcode"></i>Contact Us</a></li>
+            </ul>
+        </div>
+</section>
+    </section>
+    <section class="course-mai" id="course">
+        <h1 class="title-mai">Our Teachers</h1>
+        <div class="content-mai">
+            <div class="card-2-mai" id="maged">
+                <div class="icon-mai">
+                    <img src="maged-fotor-2024040443938.jpg">
+                </div>
+                <div class="info-mai">
+                    <h2>Maged Emam</h2>
+                    <!-- <a href="maged.html" class="course-b-2-mai">View</a> -->
+                </div>
+            </div>
+                    <div class="card-2-mai" id="sameh">
+                        <div class="icon-mai">
+                            <img src="sameh.jpg">
+                        </div>
+                        <div class="info-mai">
+                            <h2>Sameh Nashaat</h2>
+                            <!-- <a href="sameh.html" class="course-b-2-mai">View</a> -->
+                        </div>
+                    </div>
+        </div>
+    </section>
+    <footer class="footer-mai">
+        <div class="list-mai">
+            <ul>
+                <li>
+                    <a href="about.html">About Us</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+                <li>
+                    <a href="terms.html">Terms and Conditions</a>
+                </li>
+                <li>
+                    <a href="Main.html#course">Courses</a>
+                </li>
+                <li>
+                    <a href="pri.html">Privacy Policy</a>
+                </li>
+            </ul>
+        </div>
+        <div class="social-mai">
+            <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="cr-mai">
+            <p>
+                Copyright © 2024 Nagwa All Rights Reserved
+            </p>
+        </div>
+    </footer>
+    <script>
+        var infoo = document.getElementById('maged');
+        infoo.addEventListener('click', function() {
+        window.location.href = "maged.html";
+        });
+        var infoo = document.getElementById('sameh');
+        infoo.addEventListener('click', function() {
+        window.location.href = "sameh.html";
+        });
+    </script>
+    <script src="JS/Main.js"></script>
+</body>
+</html>
